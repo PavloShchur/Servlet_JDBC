@@ -17,7 +17,18 @@
     <servlet-mapping>
         <servlet-name>IndexServlet</servlet-name>
         <url-pattern>/index</url-pattern>
+        <url-pattern>/saveUser</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>AllServlet</servlet-name>
+        <display-name>AllServlet</display-name>
+        <servlet-class>com.testportal.AllServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AllServlet</servlet-name>
+        <url-pattern>/all</url-pattern>
+    </servlet-mapping>
 
 </web-app>

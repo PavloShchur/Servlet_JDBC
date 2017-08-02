@@ -13,5 +13,11 @@
 <body>
         <h2>Index page.</h2>
         ${myKey}
+
+        <form action="saveUser" method="post">
+            <input type="text" name="username">
+            <input type="submit" value="go!">
+
+        </form>
 </body>
 </html>

@@ -13,5 +13,6 @@
 <body>
     <h1>welcome</h1>
     <a href="index">To index.</a>
+    <a href="all">Get all users.</a>
 </body>
 </html>
